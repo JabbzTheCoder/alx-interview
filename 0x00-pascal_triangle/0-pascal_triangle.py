@@ -10,6 +10,9 @@ def pascal_triangle(n):
         A list of lists representing the Pascal's triangle.
     """
 
+    if n <= 0:
+        return []
+
     pascal_triangle = []
 
     for i in range(n):
